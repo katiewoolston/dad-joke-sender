@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@aws-sdk/client-ses": "^3.535.0",
+    "ts-node": "^10.9.2"
+  },
+  "scripts": {
+    "sendEmail": "ts-node src/lambda.ts"
+  }
+}
